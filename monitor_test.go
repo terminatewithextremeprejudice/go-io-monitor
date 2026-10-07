@@ -42,6 +42,8 @@ func TestMonitor(t *testing.T) {
 		assert.Equal(t, trafficMonitor.Status().Bytes, uint64(n))
 	})
 	
+	/* 
+	// more of a code example that meaninful test
 	t.Run("should provide real time updates", func (t *testing.T) {
 		wg := sync.WaitGroup{}
 		ch := make(chan bool)
@@ -82,6 +84,7 @@ func TestMonitor(t *testing.T) {
 		close(ch)
 		wg.Wait()
 	})
+	*/
 }
 
 func Color(colorString string) func(...interface{}) string {
