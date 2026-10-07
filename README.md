@@ -1,4 +1,5 @@
 # go-io-monitor
+![Coverage](https://img.shields.io/badge/Coverage-92.9%25-brightgreen)
 [![License: MIT](https://img.shields.io/badge/Licence-MIT-brightgreen)](https://opensource.org/license/mit)
 
 This library provides a passthru reader to provide bandwidth status updates.
