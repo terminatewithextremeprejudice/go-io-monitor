@@ -2,6 +2,7 @@
 [![License: MIT](https://img.shields.io/badge/Licence-MIT-brightgreen)](https://opensource.org/license/mit)
 
 This library provides a passthru reader to provide bandwidth status updates.
+![Example](screenshot.png)
 
 ## Installation Instructions
 
